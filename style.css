@@ -1,0 +1,172 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+           color: #808080;
+        }
+        h2 {
+            color: #666;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .resume {
+            margin-top: 50px;
+        }
+        .portfolio {
+            margin-top: 30px;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+          transition: color 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+          color: #FF1055;
+        }
+nav a:active {
+    color: #000000; 
+}
+
+        .logo {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            border: 8px solid #000;
+            border-radius: 10px;
+            box-shadow: 5px 5px 20px 5px #FF1055;
+        }
+/* Style for the education section */
+.education {
+    float: right; /* Float the section to the right */
+    background-color: #e0e0e0; /* Set the background color (complementary to body background) */
+    padding: auto; /* Add padding for the rectangular background */
+    width: 100%; /* Adjust the width as needed */
+}
+
+/* Style for the education content */
+.education-content {
+    margin-top: 20px; /* Add margin to separate content from the background */
+}
+
+
+/* Styles for the skills section */
+.skills {
+    margin-top: 20px;
+}
+
+/* Styles for the skills container */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Styles for each column */
+.column {
+    width: 48%; /* Set each column to occupy 48% of the container width to allow some spacing */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+/* Styles for individual skills */
+.skill {
+    padding: 10px; /* Add padding to create space between skills */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    margin-bottom: 20px; /* Add margin to separate skills */
+}
+
+/* Styles for skill content (logo and scale) */
+.skill-content {
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: space-between; /* Create space between logo and scale */
+}
+
+/* Styles for skill titles (if needed) */
+.skill h3 {
+    margin: 0;
+}
+
+/* Styles for skill scales */
+.skill-scale {
+    background-color: #E0E0E0; /* Gray background for the scale */
+    height: 20px; /* Height of the scale */
+    border-radius: 10px; /* Rounded corners for the scale */
+    flex-grow: 1; /* Allow scale to grow and fill available space */
+}
+
+/* Styles for skill levels */
+.skill-level {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ff1055; /* Blue color for skill level */
+}
+
+
+
+/* Styles for the portfolio section */
+.portfolio {
+    margin-top: 20px;
+}
+
+/* Styles for the projects container */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Styles for individual projects */
+.project {
+    width: calc(100% - 0px); /* Each project occupies about one-third of the container width with spacing */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+/* Styles for project titles (if needed) */
+.project h3 {
+    margin: 0;
+}
+
+/* Styles for project images container */
+.project-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for project images */
+.project-images img {
+    width: calc(33.33% - 5px); /* Each image occupies about one-third of the container width with spacing */
+    border-radius: 5px; /* Adds rounded edges for a smooth look */
+}
+
+
+
+
+
